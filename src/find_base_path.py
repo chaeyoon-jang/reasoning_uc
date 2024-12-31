@@ -8,7 +8,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from utils import convert_to_llama_prompt
 
 def parser():
-    parser = argparse.ArgumentParser(description='do resampling')
+    parser = argparse.ArgumentParser(description='find base path')
     parser.add_argument('--model_name',
                         type=str,
                         default='meta-llama/Llama-3.2-3B-Instruct')
